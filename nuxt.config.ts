@@ -2,5 +2,6 @@
 export default defineNuxtConfig({
   app: {
     baseURL: "/nuxt3-test-app",
+    cdnURL: "/nuxt3-test-app",
   },
 })

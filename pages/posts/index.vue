@@ -11,5 +11,4 @@
 const { data: posts } = await useFetch(
   "https://jsonplaceholder.typicode.com/todos"
 )
-console.log(posts)
 </script>

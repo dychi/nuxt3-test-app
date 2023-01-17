@@ -12,4 +12,11 @@ export default defineNuxtConfig({
       DEBUG: (process.env.ENV as string) === "development",
     },
   },
+  css: ["~/public/styles/tailwind.css"],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
 })
